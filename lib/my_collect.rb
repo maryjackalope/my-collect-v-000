@@ -5,5 +5,6 @@ def my_collect(array)
   caps << yield(array[i]) 
   i += 1 
   end #while
-  
+  caps
+end 
 
